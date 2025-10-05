@@ -9722,3 +9722,66 @@ textarea.form-control {
   line-height: 1.6;
   color: #fff;
 }
+
+
+.sae-content h2 {
+  color: #fff;
+  font-size: 2em;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.sae-content .bold {
+  font-weight: bold;
+  color: #fff;
+}
+
+.sae-content p {
+  color: #fff;
+  font-size: 1.3em;
+  line-height: 1.4;
+  margin-bottom: 30px;
+}
+
+.sae-card {
+  /* ancienne value: padding: 30px 20px 80px 20px; */
+  padding: 30px 20px 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px; /* espace entre blocs */
+}
+
+.sae-btn {
+  position: static;
+  transform: none;
+  bottom: auto;
+  width: auto;
+  padding: 10px 24px;
+  font-size: 1rem;
+  border-radius: 8px;
+  background: #222;
+  color: #fff;
+  line-height: 1.2;
+  height: auto;
+}
+
+.sae-btn:hover {
+  background:#fff;
+  color:#222;
+}
+
+/* Carte carrée spécifique SAE 24 */
+#sae24.project-square {
+  aspect-ratio: 1 / 1;              /* Force le carré */
+  width: 100%;
+  max-width: 360px;                 /* Ajuste la taille visuelle */
+  margin: 0 auto;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
